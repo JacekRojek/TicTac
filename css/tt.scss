@@ -1,11 +1,28 @@
 @import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
 
+body footer{
+  background-color: black;
+  color:#cdcdcd;
+  margin: 0px;
+  padding: 10px;
+}
 
-iframe{
+#social{
+  border-left:1px solid black;
+}
+.header{
+//  border-bottom: 1px solid white;
+}
+#track{
   padding-top: 50px;
   padding-bottom:  50px;
 }
-
+#news{
+.btn{
+  margin: 20px;
+  background-color: white;
+}
+}
 
 
 
@@ -60,6 +77,7 @@ iframe{
 // non-related styling:
 body{
   font-family: 'Alfa Slab One', cursive;
+  background-color: #ededed;
 }
 
 #logo{
