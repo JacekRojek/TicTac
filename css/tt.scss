@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
 
+
 body footer{
   background-color: black;
   color:#cdcdcd;
@@ -14,17 +15,21 @@ body footer{
 //  border-bottom: 1px solid white;
 }
 #track{
-  padding-top: 50px;
-  padding-bottom:  50px;
+  border:1px solid black;
+  margin-top: 50px;
+  margin-bottom:  50px;
 }
 #news{
 .btn{
   margin: 20px;
   background-color: white;
+  border: 1px solid black;
 }
 }
 
-
+#main-carousel{
+  border-bottom: 3px solid black;
+}
 
  #theCarousel{
    height:200px;
@@ -43,8 +48,12 @@ body footer{
   .carousel-inner{
     > .item{
       transition: 500ms ease-in-out left;
+      img{
+        border:2px solid black;
+      }
     }
     .active{
+
       &.left{
         left:-33%;
       }
