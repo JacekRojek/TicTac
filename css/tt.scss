@@ -8,6 +8,12 @@ body footer{
   padding: 10px;
 }
 
+.news{
+  background-color: white;
+  margin-bottom:15px;
+  border:1px solid black;
+  border-radius: 5px;
+}
 #social{
   border-left:1px solid black;
 }
@@ -19,12 +25,17 @@ body footer{
   margin-top: 50px;
   margin-bottom:  50px;
 }
-#news{
+.news{
 .btn{
-  margin: 20px;
-  background-color: white;
+  margin: 10px;
+  background-color: #cdcdcd;
   border: 1px solid black;
 }
+}
+#moreNews{
+  margin: 10px;
+  text-align: inherit;;
+vertical-align: middle;
 }
 
 #main-carousel{
@@ -32,7 +43,7 @@ body footer{
 }
 
  #theCarousel{
-   height:200px;
+  // height:200px;
 
  }
 
@@ -86,7 +97,7 @@ body footer{
 // non-related styling:
 body{
   font-family: 'Alfa Slab One', cursive;
-  background-color: #ededed;
+  background-color: #f4f4f4;
 }
 
 #logo{
@@ -104,6 +115,7 @@ p{
   margin-bottom: 0px;
 }
 nav{
+  color: white;
 font-family: 'Alfa Slab One', cursive;
   background: linear-gradient(to bottom,  black,  #2B2B2B);
   .logo{
